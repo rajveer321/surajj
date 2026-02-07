@@ -1,0 +1,11 @@
+# Keep these folders in deployment
+!Image/
+!Resume/
+
+# Standard ignores
+node_modules/
+.DS_Store
+*.log
+.env
+.env.local
+.vercel

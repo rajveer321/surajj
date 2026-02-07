@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Arvind Jaiswar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+    <nav class="top-nav" aria-label="Primary navigation">
+        <div class="nav-inner">
+            <a class="brand" href="#">Suraj</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main">
+
+    <!-- HERO / LANDING -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="profile-wrapper">
+                    <div class="profile-frame">
+                        <img src="Image/Coat.jpg" alt="Suraj Arvind Jaiswar" class="profile-pic" loading="lazy">
+                    </div>
+                    <div class="profile-glow"></div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <h1>Suraj Arvind Jaiswar</h1>
+                <p class="tagline">Senior Implementation Specialist | Enterprise Software & System Integration Expert</p>
+                <p class="hero-intro">Experienced in leading enterprise software implementations across Asset Management, PO, and IT/Admin Ticketing platforms. Proven ability to optimize processes, enhance adoption, and drive client success.</p>
+                <div class="hero-buttons">
+                    <a href="Resume/Suraj Jaiswar.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Senior Implementation Specialist with over 3 years of experience in enterprise software implementation, system integration, and client delivery across Asset Management, PO, and IT/Admin Ticketing platforms. Demonstrated expertise in leading large-scale implementations, database management, API integrations, and UAT execution. Proven ability to reduce implementation timelines, improve system adoption, and serve as a technical escalation point for enterprise clients. Strong communicator with leadership exposure and a client-centric delivery mindset.</p>
+            <div class="about-highlights">
+                <div class="highlight">
+                    <h4>4+</h4>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="highlight">
+                    <h4>50+</h4>
+                    <p>Clients Implemented</p>
+                </div>
+                <div class="highlight">
+                    <h4>98%</h4>
+                    <p>On-Time Go-Live Rate</p>
+                </div>
+            </div>
+            <h3>Key Strengths</h3>
+            <ul>
+                <li>3+ years of enterprise software implementation experience</li>
+                <li>Expertise in API integration, database management, and UAT execution</li>
+                <li>Strong leadership and client-focused delivery mindset</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>SRM Institute of Science and Technology</h3>
+                <span>MCA | 2023 – 2025</span>
+            </div>
+            <div class="timeline-item">
+                <h3>Shree Shankar Narayan College of Arts, Commerce & Science</h3>
+                <span>BSc Computer Science | 2018 – 2021 | SGPA: 9.1</span>
+            </div>
+            <div class="timeline-item">
+                <h3>Vidya Varidhi Vidyalaya Jr. College</h3>
+                <span>Higher Secondary (Science – IT) | 2016 – 2018</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+    <section id="experience" class="section">
+        <h2>Work Experience</h2>
+        <div class="experience-item expandable">
+            <div class="experience-header toggle-btn" onclick="toggleExperience(this)">
+                <div style="display: flex; align-items: center; width: 100%; justify-content: space-between; cursor: pointer;">
+                    <div style="display: flex; align-items: center; gap: 10px; flex: 1;">
+                        <span class="expand-icon">▶</span>
+                        <h3>Lead Implementation Specialist</h3>
+                    </div>
+                    <span class="experience-current">Current</span>
+                </div>
+            </div>
+            <div class="experience-content expanded">
+                <p class="experience-highlight">Led 30+ enterprise implementations with 98% on-time go-live</p>
+                <ul class="experience-details">
+                    <li>Database management and optimization</li>
+                    <li>API integrations and system architecture</li>
+                    <li>UAT execution and quality assurance</li>
+                    <li>Team leadership and mentorship</li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-item expandable">
+            <div class="experience-header toggle-btn" onclick="toggleExperience(this)">
+                <div style="display: flex; align-items: center; width: 100%; justify-content: space-between; cursor: pointer;">
+                    <div style="display: flex; align-items: center; gap: 10px; flex: 1;">
+                        <span class="expand-icon">▶</span>
+                        <h3>Implementation Engineer</h3>
+                    </div>
+                    <span class="experience-date">Jan 2022 – Dec 2024</span>
+                </div>
+            </div>
+            <div class="experience-content">
+                <p class="company">Spine Technologies India Private Limited</p>
+                <p class="experience-highlight">Implemented Asset Management software for 50+ clients</p>
+                <ul class="experience-details">
+                    <li>SQL Server and IIS Server expertise</li>
+                    <li>End-user training and documentation</li>
+                    <li>Full lifecycle deployments and migrations</li>
+                    <li>Technical support and troubleshooting</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Databases: MySQL, PostgreSQL, SQL Server</li>
+            <li>Servers & OS: IIS Server, Linux</li>
+            <li>Programming & Scripting: Python, HTML</li>
+            <li>Tools: DBeaver, SQL Server Management Studio</li>
+            <li>Other: API Integration, Debugging, System Configuration, PO Modules</li>
+        </ul>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <div class="certificates-grid">
+            <div class="certificate-badge">
+                <div class="badge-icon">🏆</div>
+                <h3>Microsoft Certification</h3>
+                <p>AWS Completion Certificate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>College Notes Drive System</h3>
+                    <span class="project-type">Web Application</span>
+                </div>
+                <p>Centralized platform for managing academic notes with role-based access and content management.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTS HANDLED -->
+    <section id="clients" class="section">
+        <h2>Clients Handled</h2>
+        <p class="section-sub">A selection of enterprise clients I've worked with during implementations and integrations.</p>
+        <div class="clients-grid">
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/BSE.jpg" alt="BSE"/></div>
+                <div class="client-name">BSE</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/crowne-plaza.jpg" alt="Crowne Plaza logo"/></div>
+                <div class="client-name">Crowne Plaza</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/Morgan Stanley.jpg" alt="Morgan Stanley logo"/></div>
+                <div class="client-name">Morgan Stanley</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/SBI.png" alt="SBI Securities logo"/></div>
+                <div class="client-name">SBI Securities</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/skechers.jpg" alt="Skechers logo"/></div>
+                <div class="client-name">Skechers</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/JW.png" alt="J.W. Marriott logo"/></div>
+                <div class="client-name">J.W. Marriott</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/muthoot.png" alt="Muthoot logo"/></div>
+                <div class="client-name">Muthoot</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo"><img src="Image/clients/Pyrotek.png" alt="Pyrotek logo"/></div>
+                <div class="client-name">Pyrotek</div>
+            </div>
+            <div class="client-card">
+                <div class="client-logo">…</div>
+                <div class="client-name">More</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h2>Let's Connect</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="icon">📞</span>
+                <div>
+                    <p class="label">Phone</p>
+                    <a href="tel:+917263938844">+91 7263938844</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span class="icon">✉️</span>
+                <div>
+                    <p class="label">Email</p>
+                    <a href="mailto:jssuraja999@gmail.com">jssuraja999@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span class="icon">🔗</span>
+                <div>
+                    <p class="label">LinkedIn</p>
+                    <a href="https://linkedin.com/in/suraj-jaiswar-036a001b8" target="_blank">Connect on LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <h3>Send a Message</h3>
+            <!-- Replace YOUR_FORM_ID with your Formspree form ID (https://formspree.io) -->
+            <form action="https://formspree.io/f/xqedzvpz" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <!-- Honeypot field to deter bots (leave name as _honey) -->
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_subject" value="New contact form submission from portfolio">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+        <p class="closing-message">Looking forward to collaborating with you and bringing your vision to life! 🚀</p>
+    </section>
+
+    <!-- FOOTER -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2026 Suraj Arvind Jaiswar. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="Resume/Suraj Jaiswar.pdf" target="_blank">Download Resume</a>
+                <span class="divider">•</span>
+                <a href="https://linkedin.com/in/suraj-jaiswar-036a001b8" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleExperience(headerElement) {
+            const item = headerElement.closest('.experience-item');
+            const content = item.querySelector('.experience-content');
+            const icon = headerElement.querySelector('.expand-icon');
+            
+            // Toggle collapsed class
+            content.classList.toggle('collapsed');
+            icon.classList.toggle('rotated');
+        }
+
+        // Initialize - first experience item is open by default
+        document.addEventListener('DOMContentLoaded', function() {
+            const firstContent = document.querySelector('.experience-content.expanded');
+            if (firstContent) {
+                firstContent.classList.remove('collapsed');
+                const firstIcon = firstContent.closest('.experience-item').querySelector('.expand-icon');
+                firstIcon.classList.add('rotated');
+            }
+        });
+    </script>
+
+</body>
+</html>
